@@ -1,0 +1,21 @@
+ticket_id,created_date,resolved_date,department,category,priority,status,assigned_team,customer_type,resolution_hours,sla_hours,reopened
+TCK-1001,2026-01-03,2026-01-04,IT,Login Issue,High,Resolved,Service Desk,Internal,18,24,No
+TCK-1002,2026-01-04,2026-01-09,Applications,System Error,Critical,Resolved,Applications Support,Internal,96,8,Yes
+TCK-1003,2026-01-05,2026-01-06,Infrastructure,Network,High,Resolved,Infrastructure,Internal,22,24,No
+TCK-1004,2026-01-06,,IT,Access Request,Normal,Open,Service Desk,Internal,,48,No
+TCK-1005,2026-01-07,2026-01-10,Applications,Report Issue,Normal,Resolved,Applications Support,External,72,48,No
+TCK-1006,2026-01-08,2026-01-08,Database,Data Correction,High,Resolved,Database Team,Internal,6,24,No
+TCK-1007,2026-01-09,,Infrastructure,Server,High,In Progress,Infrastructure,Internal,,24,No
+TCK-1008,2026-01-10,2026-01-11,IT,Password Reset,Low,Resolved,Service Desk,Internal,4,48,No
+TCK-1009,2026-01-11,2026-01-15,Applications,System Error,Critical,Resolved,Applications Support,External,88,8,Yes
+TCK-1010,2026-01-12,2026-01-13,Database,Report Issue,Normal,Resolved,Database Team,Internal,26,48,No
+TCK-1011,2026-01-13,2026-01-14,IT,Login Issue,Normal,Resolved,Service Desk,Internal,20,48,No
+TCK-1012,2026-01-14,,Applications,Workflow Issue,High,Open,Applications Support,Internal,,24,No
+TCK-1013,2026-01-15,2026-01-20,Infrastructure,Network,Critical,Resolved,Infrastructure,Internal,110,8,Yes
+TCK-1014,2026-01-16,2026-01-16,IT,Password Reset,Low,Resolved,Service Desk,Internal,3,48,No
+TCK-1015,2026-01-17,2026-01-18,Database,Data Correction,Normal,Resolved,Database Team,External,19,48,No
+TCK-1016,2026-01-18,2026-01-22,Applications,System Error,High,Resolved,Applications Support,Internal,82,24,Yes
+TCK-1017,2026-01-19,,IT,Access Request,Normal,In Progress,Service Desk,Internal,,48,No
+TCK-1018,2026-01-20,2026-01-21,Infrastructure,Server,High,Resolved,Infrastructure,External,23,24,No
+TCK-1019,2026-01-21,2026-01-22,Database,Report Issue,High,Resolved,Database Team,Internal,25,24,No
+TCK-1020,2026-01-22,2026-01-23,Applications,Workflow Issue,Normal,Resolved,Applications Support,Internal,30,48,No
