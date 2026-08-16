@@ -6,6 +6,7 @@ from pathlib import Path
 BASE_DIR = Path(__file__).resolve().parents[1]
 
 PROCESS_SCRIPT = BASE_DIR / "scripts" / "process_tickets.py"
+QUALITY_CHECK_SCRIPT = BASE_DIR / "scripts" / "data_quality_checks.py"
 REPORT_SCRIPT = BASE_DIR / "scripts" / "generate_reports.py"
 
 
@@ -26,6 +27,7 @@ def main() -> None:
     print("Starting operational reporting pipeline")
 
     run_script(PROCESS_SCRIPT)
+    run_script(QUALITY_CHECK_SCRIPT)
     run_script(REPORT_SCRIPT)
 
     print("Pipeline completed successfully")
