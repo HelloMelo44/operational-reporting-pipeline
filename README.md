@@ -4,7 +4,7 @@
 
 This project builds a simple operational reporting data pipeline using Python and CSV files.
 
-The pipeline simulates a common business scenario where an operational team receives raw service desk ticket data that needs to be validated, cleaned, transformed, and turned into reporting-ready outputs.
+The pipeline simulates a common business scenario where an operational team receives raw service desk ticket data that needs to be validated, cleaned, transformed, checked for quality, and turned into reporting-ready outputs.
 
 The goal is to demonstrate practical data engineering skills in a clear, repeatable, and portfolio-friendly way.
 
@@ -30,6 +30,8 @@ Column validation
 Data cleaning and standardisation
         ↓
 Processed reporting dataset
+        ↓
+Data quality checks
         ↓
 Summary report generation
         ↓
