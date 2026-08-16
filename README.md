@@ -1,100 +1,36 @@
-\# Operational Reporting Data Pipeline
+# Operational Reporting Data Pipeline
 
+## Project Overview
 
+This project builds a simple operational reporting data pipeline using Python and CSV files.
 
-\## Project Overview
+The pipeline simulates a common business scenario where an operational team receives raw service desk ticket data that needs to be validated, cleaned, transformed, and turned into reporting-ready outputs.
 
+The goal is to demonstrate practical data engineering skills in a clear, repeatable, and portfolio-friendly way.
 
+## Business Problem
 
-This project builds a simple operational reporting data pipeline.
+Operational teams often receive raw exports from systems such as service desks, workflow tools, customer portals, or enterprise applications.
 
+Before the data can be used for reporting, it usually needs to be checked, cleaned, standardised, and transformed.
 
+Manual reporting can lead to repeated work, inconsistent calculations, and reporting errors.
 
-The pipeline will take raw operational data, validate it, clean it, prepare reporting-ready outputs, and document the process clearly.
+This project shows how a simple pipeline can make that process more reliable.
 
+## Pipeline Flow
 
-
-The goal is to show practical data engineering skills using Python, structured folders, repeatable scripts, logging, and reporting outputs.
-
-
-
-\## Business Problem
-
-
-
-Operational teams often receive raw data in spreadsheets or CSV files. Before that data can be used for reporting, it usually needs to be checked, cleaned, standardised, and transformed into useful summaries.
-
-
-
-This project explores how a repeatable pipeline can support that process.
-
-
-
-\## Planned Pipeline Flow
-
-
-
-1\. Load raw operational data.
-
-2\. Validate required fields and data quality.
-
-3\. Clean and standardise the dataset.
-
-4\. Save a processed dataset.
-
-5\. Generate reporting summaries.
-
-6\. Log pipeline activity.
-
-7\. Document assumptions and decisions.
-
-
-
-\## Planned Tools
-
-
-
-\- Python
-
-\- pandas
-
-\- logging
-
-\- CSV files
-
-\- SQL
-
-\- Git and GitHub
-
-
-
-\## Project Structure
-
-
+The pipeline follows this process:
 
 ```text
-
-operational\_reporting\_pipeline
-
-├── data
-
-│   ├── raw
-
-│   └── processed
-
-├── docs
-
-├── logs
-
-├── reports
-
-├── scripts
-
-├── sql
-
-├── CHANGELOG.md
-
-├── README.md
-
-└── .gitignore
-
+Raw service ticket data
+        ↓
+Column validation
+        ↓
+Data cleaning and standardisation
+        ↓
+Processed reporting dataset
+        ↓
+Summary report generation
+        ↓
+Repeatable one-command execution
