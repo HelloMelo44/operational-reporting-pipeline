@@ -36,3 +36,32 @@ Data quality checks
 Summary report generation
         ↓
 Repeatable one-command execution
+
+## How to Run
+
+Clone the repository:
+
+```bash
+git clone https://github.com/HelloMelo44/operational-reporting-pipeline.git
+cd operational-reporting-pipeline
+```
+
+Install the required Python packages:
+
+```bash
+pip install -r requirements.txt
+```
+
+Run the full pipeline:
+
+```bash
+python scripts/run_pipeline.py
+```
+
+This command runs the full pipeline:
+
+1. Processes the raw service ticket dataset.
+2. Saves the cleaned dataset to `data/processed`.
+3. Generates a data quality report in `reports`.
+4. Generates reporting summary files in `reports`.
+5. Writes pipeline execution details to `logs/pipeline.log`.
