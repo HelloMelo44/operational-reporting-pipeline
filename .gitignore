@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+logs/*.log
+
+# Local database files
+*.db
+*.sqlite
+*.sqlite3
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Keep folder placeholders
+!.gitkeep
